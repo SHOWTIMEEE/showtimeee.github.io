@@ -1,2 +1,0 @@
-# showtimeee.github.io
-SHOWTIMEEE
