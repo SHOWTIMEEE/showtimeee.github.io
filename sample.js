@@ -1,4 +1,8 @@
+var name; 
+var email;
+var username;
+var password;
 
 
-alert("");
-prompt();
+prompt("Enter your name");
+alert(name);
