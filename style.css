@@ -1,0 +1,84 @@
+
+body{
+background-image:url(https://wallpapercave.com/wp/DtslnrT.jpg); 
+background-size:cover;
+background-repeat: no-repeat; 
+font-size: 15px;
+color:#b3b3b3;
+}
+h1{
+color:#bebebe;
+font-size:64px;
+text-align:center;
+text-decoration:underline;
+}
+h2{
+font-size: 40px;
+color:#FFFFFF;
+text-align: right;
+}
+h3{
+color:#8A2BE2;
+font-size: 22px;
+text-align: right;
+}
+h4{
+color:lawngreen ;
+font-size:30px;
+text-align: right;
+}
+#list01{
+display: inline;
+padding: 5px;
+background-color: black;
+font-size: 22px;
+}
+#form01{
+font-size: 15px;
+text-align:right;
+}
+#form02{
+background-color:#000000;
+border-color:white;
+font-size:20px;
+color:#FFFFFF;
+text-align:center;
+}
+#para1{
+
+    background-color: grey;
+padding: 25px;
+color: white;
+font-size: 3
+5px;
+}
+#link01{
+text-align:center;
+padding:5px;
+background-color:orange;
+color:black;
+font-size: 35px;
+}
+#div1{
+padding:2px    
+background-color:gray; 
+font-size: 24px;
+}
+#table01{
+text-align: center;
+color: #FFFFFF;
+border-color: white;
+font-size: 22px;
+}
+#para03{
+color:orange; 
+font-size:35px;
+text-align: left;
+}
+#div002{
+padding: 5px;
+font-size:40px;
+color: black;
+background-color: orange;
+text-align: center;
+}
