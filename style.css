@@ -3,12 +3,12 @@ body{
 background-image:url("https://wallpapercave.com/wp/DtslnrT.jpg"); 
 background-size:cover;
 background-repeat: no-repeat; 
-font-size: 15px;
-color:#b3b3b3;
+font-size: 20px;
+color:#b3b3;
 }
 h1{
-color:#bebebe;
-font-size:64px;
+color:#b;
+font-size:65px;
 text-align:center;
 text-decoration:underline;
 }
@@ -35,7 +35,7 @@ overflow:hidden;
 background-color:orange;
 text-align:center;
 border:solid black;
-padding:none;
+padding:7px;
 
 }
 li{
@@ -51,7 +51,7 @@ text-align: center;
  text-align: center;
  padding: 14px 16px;
 }
-li a :hover:not(.active){
+li a:hover:not(.active){
  background-color: turquoise;
 }
 .active{
@@ -71,6 +71,11 @@ padding-top: 40px;
 padding-bottom: 20px;
 border:solid;
 border-color:#000;
-background-color:#3498DB;
+background-color:#BEBEBE  ;
 align-items: center;
+}
+#table{
+color:white;
+font-size: 22px;
+text-align: center;
 }
