@@ -1,3 +1,8 @@
+function sample(){
+prompt(email);
+alert (email);
+ 
+}
 
 function firstone(){
  
