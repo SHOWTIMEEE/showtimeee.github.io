@@ -1,3 +1,9 @@
+function Register(){
+alert("ALERT");
+
+}
+
+
 function sample(){
 prompt(email);
 alert (email);
