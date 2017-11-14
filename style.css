@@ -71,15 +71,16 @@ input[type=password] {
     box-sizing: border-box;
 }
 button {
-    background-color:white;
-    color: black;
+    background-color:#0247FE   ;
+    color:#FFFFFF;
     font-size: 20px;
     padding: 14px 20px;
     margin: 8px 0;
-    border: solid gray 1px;
+    border: solid gray 3px;
     border-width: 50%;
     cursor: pointer;
     width: 25%;
+    border-radius: 20%;
 }
 .cancelbtn {
     width: auto;
@@ -167,7 +168,9 @@ animation-name:example;
 animation-duration:4s; 
 }
 footer{
-background-color: blue;
+text-align: right;  
+padding-top: 4px;  
+background-color:gray;
 color:black;
 font-size: 12px;
 }
