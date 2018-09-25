@@ -4,15 +4,20 @@
     <title>SHOWTIMEEE</title>
 <link type="text/css" href="style.css" rel="stylesheet" media="all">
                     <script src="https://code.jquery.com/jquery-3.1.1.js">
-    
-      $(function() {
+    </script>
+</head>
+            <body>
+<h1><img src="https://avatars1.githubusercontent.com/u/30442388?s=460&v=4" alt="Image not found"></h1>
+<button onclick="bout1()" name="bout1">INPUT</button>
+<iframe src="https://www.monero.how/widget" style="width:210px; height:130px;" allowTransparency="true" border="0" hideFocus="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameBorder="no"></iframe>
+<script>  $(function() {
         $("#add").on("click", function() {
         var val = $("#text").val();
         if(val !== '') {
             var elem = $("<li></li>").text(val);
             $(elem).append("<button class='rem'>X</button>");
             $("#mylist").append(elem);
-            $("input").val("");
+            $("#text").val("");
             $(".rem").on("click", function() {
             $(this).parent().remove();
      });
@@ -20,13 +25,10 @@
   });
 });
     </script>
-</head>
-            <body>
-<h1><img src="https://avatars1.githubusercontent.com/u/30442388?s=460&v=4" alt="Image not found"></h1>
-<button onclick="bout1()" name="bout1">INPUT</button>
-<iframe src="https://www.monero.how/widget" style="width:210px; height:130px;" allowTransparency="true" border="0" hideFocus="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameBorder="no"></iframe>
-<input id="text">WRITE NOTE HERE</input>
-    <button id="add"> ADD </button>
+                
+                <input type="text" id="text">WRITE NOTE HERE</input>
+    <button id="add">ADD</button>
+    <ol id="mylist"></ol>
     
 
 
