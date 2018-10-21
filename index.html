@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
+
     <head>
-       <title>SHOWTIMEEE</title>
+<meta charset="utf-8">
+        <title>SHOWTIMEEE</title>
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
 </head>
                     <body>
-   <script>
-        $(function() {
-           $("#demo").click(function() {
-                $("body").html(Date());
-});     
-</script>
-  <button id="demo">DATE </button>                      
                         
-                        
+                        <button id="demo">DATE </button>                      
                    <div id="list">       
-              <script>
-                  $(function() {
-        $("#add").on("click", function() {
-        var val = $("#text").val();
-        if(val !== '') {
-            var elem = $("<li></li>").text(val);
-            $(elem).append("<button class='rem'>X</button>");
-            $("#mylist").append(elem);
-            $("#text").val("");
-            $(".rem").on("click", function() {
-            $(this).parent().remove();
-     });
-    }
-  });
-});
-    </script>
+                        
+                        
+
               
                 <input type="text" id="text" placeholder="ENTER LIST ITEM HERE"></input>
     <button align="right" id="add">ADD</button>
@@ -229,5 +210,26 @@ line-height: 30px;
 background-color: #bebebe 
 }
     </style>
-</body>
+
+       <script>
+        $(function() {
+           $("#demo").click(function() {
+                $("body").html(Date());
+});     
+
+          $("#add").on("click", function() {
+        var val = $("#text").val();
+        if(val !== '') {
+            var elem = $("<li></li>").text(val);
+            $(elem).append("<button class='rem'>X</button>");
+            $("#mylist").append(elem);
+            $("#text").val("");
+            $(".rem").on("click", function() {
+            $(this).parent().remove();
+     });
+    }
+  });
+});
+    </script>
+    </body>
 </html>
